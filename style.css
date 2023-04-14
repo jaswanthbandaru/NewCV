@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none; 
+}
+body{
+    background-color:#0c0d25;
+}
+footer{
+    border-top: 1px solid #ccc;
+    display: flex;
+    color: azure;
+    justify-content: center;
+    align-items:center;
+    background-color:#0c0d25;
+    height: 60px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c0d25;
+    height:45px;
+}
+.divbar{
+    display: flex;
+    align-items:center;
+}
+.logo{
+    color: azure;
+    font-size:22px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right:350px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-around;
+    list-style:none;
+}
+li{
+    margin-left: 56px;
+}
+a{
+    color: azure;
+}
+a:hover {
+    color: #007bff;
+}
+img{
+    padding-top: 50px;
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+pre{
+    color: azure;
+    text-align: center;
+    line-height:1.75;
+}
+.name{
+    font-size:30px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.social a:hover {
+    transform:scale(1.2);
+}
+hr{
+  margin: 20px auto;
+  width: 30%;
+  border:none;
+  border-top: 1px solid #ccc;
+  border-style: dotted;
+} 
+.aboutME{
+    color: azure;
+}
+.aboutME h1{
+    text-align: center;
+    text-decoration: underline;
+}
+table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+th {
+    text-align:center;
+    padding: 20px;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    background-color: #fc6868;
+    color: #333;
+} 
+  button:hover {
+    background-color: #fc6868;
+    color: #fff;
+}
+.certificates h2{
+    color: azure;
+    text-align: center;
+    text-decoration: underline;
+} 
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: azure;
+  }
+  
+  label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: azure;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
