@@ -17,6 +17,7 @@ footer{
 }
 .navbar{
     display: flex;
+    position: fixed;
     justify-content: space-between;
     background-color: #0c0d25;
     height:45px;
