@@ -23,7 +23,7 @@ footer{
 }
 .divbar{
     display: flex;
-    postion: fixed;
+    position: fixed;
     align-items:center;
 }
 .logo{
